@@ -22,3 +22,9 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# Qwen Code
+.qwen/
+
+# Local folders
+intership_manager/

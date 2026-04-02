@@ -11,7 +11,7 @@ class User extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'groups_id'];
+    protected $fillable = ['name', 'email', 'password', 'groups_id'];
 
     public function group(): BelongsTo
     {
